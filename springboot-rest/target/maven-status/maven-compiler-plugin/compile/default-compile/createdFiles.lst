@@ -1,4 +1,4 @@
-com/littleworld/todo/services/TodoService.class
-com/littleworld/todo/Application.class
-com/littleworld/todo/controllers/TodoController.class
-com/littleworld/todo/model/Todo.class
+com\littleworld\todo\Application.class
+com\littleworld\todo\controllers\TodoController.class
+com\littleworld\todo\services\TodoService.class
+com\littleworld\todo\model\Todo.class
