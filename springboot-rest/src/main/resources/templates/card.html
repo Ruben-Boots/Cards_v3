@@ -1,0 +1,38 @@
+<!doctype html>
+<html ng-app='card'>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+
+    <script src='/js/card.js'></script>
+</head>
+<body>
+
+
+<div ng-controller="CardCtrl">
+    <form class="form-horizontal" ng-submit="updateCard">
+
+        <div class="control-group">
+            <label class="control-label" for="fn">task</label>
+            <div class="controls">
+                <input class="input-xlarge" id="fn" type="text" ng-model="card.task"
+                       placeholder="task" required="required"/>
+                <p class="help-block">add task to the list</p>
+            </div>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary" ng-click="save()" >
+                <a class="icon-plus"></a> Save
+            </button>
+        </div>
+    </form>
+    <table class="table">
+        <tr ng-repeat="card in cards">
+            <td>{{todo.card}}</td><td><button class="btn" ng-click="delete(card.id)">delete</button></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
+

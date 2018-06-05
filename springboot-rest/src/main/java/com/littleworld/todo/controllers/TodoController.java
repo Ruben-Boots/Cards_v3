@@ -8,8 +8,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
-import com.littleworld.todo.model.*;
-import com.littleworld.todo.services.*;
+import com.littleworld.todo.model.Todo;
+import com.littleworld.todo.services.TodoService;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @Controller
@@ -52,7 +52,7 @@ public class TodoController {
     return todoService.findOne(id);
   }
 
-  @RequestMapping(value = "/page", method = RequestMethod.GET)
+  @RequestMapping(value = "/page1", method = RequestMethod.GET)
   public String page() {
       return "todo";
   }
