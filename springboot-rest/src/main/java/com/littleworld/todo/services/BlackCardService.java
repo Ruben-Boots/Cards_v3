@@ -1,12 +1,10 @@
-
 package com.littleworld.todo.services;
 
+import com.littleworld.todo.model.BlackCard;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.littleworld.todo.model.*;
-
 @Repository
-public interface CardService extends CrudRepository<Card, Integer> {
-}
+public interface BlackCardService extends CrudRepository<BlackCard, Long> {
 
+}

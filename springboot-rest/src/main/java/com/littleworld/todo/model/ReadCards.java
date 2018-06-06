@@ -1,5 +1,8 @@
 package com.littleworld.todo.model;
 
+import com.littleworld.todo.services.BlackCardService;
+import com.littleworld.todo.services.WhiteCardService;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -22,7 +25,7 @@ public class ReadCards
 	}
 	
 	
-	public void read(CardRepoBlack repob, CardRepoWhite repow)
+	public void read(BlackCardService repob, WhiteCardService repow)
 	{
 		int idxp = 0, numpicks;
 		long idB = 0, idW = 0;
@@ -85,7 +88,7 @@ public class ReadCards
 
 	}
 	
-	public void resetTrack(CardRepoBlack repob, CardRepoWhite repow)
+	public void resetTrack(BlackCardService repob, WhiteCardService repow)
 	{
 		this.trackblack.clear();
 		this.trackwhite.clear();
@@ -101,7 +104,7 @@ public class ReadCards
 		}
 	}
 	
-	public BlackCard drawBlack(CardRepoBlack repob)
+	public BlackCard drawBlack(BlackCardService repob)
 	{
 		int idx;
 		BlackCard res = null;
@@ -115,7 +118,7 @@ public class ReadCards
 		return res;
 	}
 	
-	public WhiteCard[] drawWhite(int numCards, CardRepoWhite repow) {
+	public WhiteCard[] drawWhite(int numCards, WhiteCardService repow) {
 		WhiteCard[] res = new WhiteCard[numCards];
 		int idx;
 

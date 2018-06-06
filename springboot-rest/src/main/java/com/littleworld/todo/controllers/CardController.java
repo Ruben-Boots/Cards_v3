@@ -7,9 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import java.util.List;
 
 import com.littleworld.todo.services.CardService;
+import com.littleworld.todo.services.WhiteCardService;
+import com.littleworld.todo.services.BlackCardService;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @Controller
@@ -17,9 +18,9 @@ public class CardController {
 
     @Autowired  private CardService cardService;
 
-    @Autowired  private CardRepoWhite cardWhite;
+    @Autowired  private WhiteCardService cardWhite;
 
-    @Autowired  private CardRepoBlack cardBlack;
+    @Autowired  private BlackCardService cardBlack;
 
     static ReadCards reader = new ReadCards();
 
@@ -56,6 +57,16 @@ public class CardController {
 
 
         return reader.drawWhite(10,cardWhite);
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/blackcard", method = RequestMethod.GET)
+    public BlackCard BlackCard() {
+        if(cardWhite.count()==0)
+            reader.read(cardBlack,cardWhite);
+        if(reader.trackwhite.isEmpty())
+            reader.resetTrack(cardBlack,cardWhite);
+        return reader.drawBlack(cardBlack);
     }
 
     //curl  http://localhost:8080/todo/1
