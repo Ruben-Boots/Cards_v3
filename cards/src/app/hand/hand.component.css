@@ -1,0 +1,26 @@
+.zoom {
+  -webkit-transition: all 250ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 250ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 250ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 250ms ease-in;
+  transform: scale(1);
+}
+
+.zoom:hover {
+  -webkit-transition: all 225ms ease-in;
+  -webkit-transform: scale(1.25);
+  -ms-transition: all 225ms ease-in;
+  -ms-transform: scale(1.25);
+  -moz-transition: all 225ms ease-in;
+  -moz-transform: scale(1.25);
+  transition: all 225ms ease-in;
+  transform: scale(1.25);
+}
+
+button:hover {
+  text-decoration: none;
+  text-shadow: none;
+}

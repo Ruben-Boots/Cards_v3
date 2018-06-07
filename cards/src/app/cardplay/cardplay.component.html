@@ -1,0 +1,27 @@
+<div class="row justify-content-start">
+  <div class="d-flex p-3 pb-4">
+
+    <div class="card shadow p-2 text-white mb-20" style="background-color:#000000; width: 13rem; height: 18rem">
+      <div class="card-body">
+        <h5 class="card-title">{{blackCard.text}}</h5>
+      </div>
+    </div>
+  </div>
+
+  <div *ngFor="let kaart of cards">
+    <div *ngIf="kaart.select" class="d-flex p-3 pb-4">
+
+      <div class="card shadow p-2 bg-light mb-20" style=" width: 13rem; height: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">{{kaart.text}}</h5>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<button class="btn btn-outline-light btn-lg" [disabled]="!(blackCard.numPicks===selected)">Bevestig keuze</button>
+
+<h4 *ngIf="blackCard.numPicks===1;else kaarten" class="text-white">Kies een kaart:</h4>
+<ng-template #kaarten><h4 class="text-white">Kies {{blackCard.numPicks}} kaarten:</h4></ng-template>
+
