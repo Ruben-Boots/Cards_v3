@@ -46,9 +46,9 @@ public class CardController {
 
     //curl  http://localhost:8080/todo
     @ResponseBody
-    @RequestMapping(value = "/card", method = RequestMethod.GET)
-    public WhiteCard[] findAll() {
-
+    @RequestMapping(value = "/card/draw/{aantal}", method = RequestMethod.GET)
+    public WhiteCard[] findAll(@PathVariable int aantal) {
+        System.err.println(aantal);
         if(cardWhite.count()==0)
             reader.read(cardBlack,cardWhite);
         if(reader.trackwhite.isEmpty())
@@ -56,7 +56,7 @@ public class CardController {
 
 
 
-        return reader.drawWhite(10,cardWhite);
+        return reader.drawWhite(aantal,cardWhite);
     }
 
     @ResponseBody

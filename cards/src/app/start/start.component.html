@@ -1,0 +1,7 @@
+<h3 class="text-white">Welkom bij another shitty clone of Cards Against humanity</h3>
+<form [formGroup]="startForm" (ngSubmit)="saveSettings($event)">
+  <input formControlName="naam" type="text" placeholder="Hoe heet je?"><br>
+  <p class="text-white">Hoeveel rondes wil je spelen</p>
+  <input formControlName="rondes" type="number" placeholder="10">
+  <button type="submit">Begin</button>
+</form>

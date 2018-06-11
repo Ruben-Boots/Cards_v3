@@ -7,49 +7,49 @@ import {DataService} from '../data.service';
   selector: 'app-hand',
   templateUrl: './hand.component.html',
   styleUrls: ['./hand.component.css'],
-  providers:  [CardService]
+  providers:  []
 })
 export class HandComponent implements OnInit {
   cards: Kaart[];
   selected = 0 ;
   numPicks: number;
+  selectedCards: Kaart[] = [];
 
   constructor(private cardService: CardService, private dataService: DataService) {
   }
 
   ngOnInit() {
-    this.getAllCards();
+    this.dataService.drawNewCards();
     this.dataService.numPicksUpdated.subscribe(numPicks => this.numPicks = numPicks);
-    console.log(this.numPicks);
-  }
-
-
-  getAllCards() {
-    this.cardService.findAll().subscribe(
-      cards => {
-        this.cards = cards;
-        this.dataService.setCards(this.cards);
-      },
-      err => {
-        console.log(err);
-      }
-    );
+    this.dataService.cardsUpdated.subscribe(cards => this.cards = cards);
+    this.dataService.selectedUpdated.subscribe(selected => this.selected = selected);
   }
 
   public selectKaart(kaart: Kaart) {
       // this.dataService.setNumPicks(12);
-      console.log(this.numPicks + 'inselectkaart');
+      // console.log(this.numPicks + 'inselectkaart');
       // for (const card in this.cards) {
       //   if (card.select === true) {
       //     console.log('en weer een');
       //   }
       // }
+
+
       if (kaart.select) {
         this.selected--;
       } else {
         this.selected++;
       }
+
       kaart.select = !kaart.select;
+      if (kaart.select) {
+        this.selectedCards.push(kaart);
+      } else {
+        this.selectedCards.splice(this.selectedCards.indexOf(kaart), 1);
+      }
+
+
       this.dataService.setSelected(this.selected);
+      this.dataService.setSelectedCards(this.selectedCards);
   }
 }

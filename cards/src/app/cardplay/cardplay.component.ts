@@ -1,39 +1,35 @@
-import { Component, OnInit, AfterViewInit} from '@angular/core';
+import { Component, OnInit, AfterViewInit, Inject} from '@angular/core';
 import {CardService} from '../card.service';
 import {DataService} from '../data.service';
 // import {HandComponent} from '../hand/hand.component';
 
 import {Kaart} from '../Kaart';
+import {AppComponent} from '../app.component';
 // import {Todo} from '../Todo';
 
 @Component({
   selector: 'app-cardplay',
   templateUrl: './cardplay.component.html',
   styleUrls: ['./cardplay.component.css'],
-  providers: [CardService]
+  providers: []
 })
 export class CardplayComponent implements OnInit {
   blackCard: Kaart = new Kaart( 0 , '');
-  cards: Kaart[];
+  selectedCards: Kaart[];
   selected = 0;
 
-  constructor(private cardService: CardService, private dataService: DataService) { }
+
+  constructor(private cardService: CardService, private dataService: DataService, @Inject(AppComponent) private parent: AppComponent) { }
 
   ngOnInit() {
-    this.drawOneBlack();
-    this.dataService.cardsUpdated.subscribe(cards => this.cards = cards);
+    this.dataService.drawOneBlack();
+    this.dataService.blackCardUpdated.subscribe(blackCard => this.blackCard = blackCard);
+    this.dataService.selectedCardsUpdated.subscribe(selectedCards => this.selectedCards = selectedCards);
     this.dataService.selectedUpdated.subscribe(selected => this.selected = selected);
   }
 
-  drawOneBlack() {
-    this.cardService.drawBlack().subscribe(
-      card => {
-        this.blackCard = card;
-        this.dataService.setNumPicks(this.blackCard.numPicks);
-      },
-      err => {
-        console.log(err);
-      }
-    );
+  bevestig() {
+    this.dataService.removeHandCards();
+    this.parent.speelronde = false;
   }
 }

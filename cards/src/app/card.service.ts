@@ -11,8 +11,9 @@ export class CardService {
 
   constructor(private http: HttpClient) { }
 
-  findAll(): Observable<Kaart[]>  {
-    return this.http.get('http://localhost:8080/card')
+  findAll(aantal: number): Observable<Kaart[]>  {
+    console.log(aantal);
+    return this.http.get('http://localhost:8080/card/draw/' + aantal)
       .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
   }
 

@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  speelronde = true;
+  ronde = 0;
+  maxRondes = 10;
+  naam: string;
 }
