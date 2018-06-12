@@ -1,0 +1,7 @@
+<h1 class="text-white">JIJ BEPAALT</h1>
+<p class="text-white">Hoeveel rondes wil je spelen</p>
+<form [formGroup]="startForm" (ngSubmit)="saveSettings($event)">
+  <input formControlName="rondes" type="number" placeholder="10">
+  <button type="submit">Begin</button>
+</form>
+<p class="text-white">Er zijn {{this.parent.spelers}} spelers.</p>

@@ -1,7 +1,10 @@
 
 <h1 class="text-white">Cards Against Humanity</h1>
 
-<app-start [hidden]="ronde!=0"></app-start>
+<div *ngIf="ronde===0">
+<app-start></app-start>
+<app-keuzes *ngIf="first"></app-keuzes>
+</div>
 
 <div [hidden]="ronde===0">
   <div [hidden]="ronde===maxRondes+1">
@@ -16,7 +19,3 @@
 </div>
 
 <app-end [hidden]="ronde!=maxRondes+1"></app-end>
-
-<!--<app-todo-form [todoList]="todoComp"></app-todo-form>-->
-
-<!--<app-todo-list #todoComp></app-todo-list>-->

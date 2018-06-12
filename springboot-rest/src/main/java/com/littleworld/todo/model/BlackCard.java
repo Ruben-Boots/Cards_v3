@@ -12,15 +12,17 @@ public class BlackCard
 	protected long id;
 	protected int num_picks;
 	protected String text;
+	protected String cardset;
 
 	public BlackCard(){
 
 	}
 
-	public BlackCard(String txt,long id,int picks) {
+	public BlackCard(String txt,long id,int picks, String cardset) {
 		this.text = txt;
 		this.id = id;
 		this.num_picks = picks;
+		this.cardset = cardset;
 	}
 
 	public void setText(String text)
@@ -31,6 +33,16 @@ public class BlackCard
 	public String getText()
 	{
 		return this.text;
+	}
+
+	public void setCardset(String cardset)
+	{
+		this.cardset = cardset;
+	}
+
+	public String getCardset()
+	{
+		return this.cardset;
 	}
 
 	public void setId(long id)

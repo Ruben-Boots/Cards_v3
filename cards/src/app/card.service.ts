@@ -12,7 +12,6 @@ export class CardService {
   constructor(private http: HttpClient) { }
 
   findAll(aantal: number): Observable<Kaart[]>  {
-    console.log(aantal);
     return this.http.get('http://localhost:8080/card/draw/' + aantal)
       .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
   }
@@ -21,4 +20,34 @@ export class CardService {
     return this.http.get('http://localhost:8080/blackcard')
       .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
   }
+
+  addUser(): Observable<number> {
+    return this.http.get('http://localhost:8080/add')
+      .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
+  }
+
+  removeUser(id: number) {
+    this.http.get('http://localhost:8080/remove/' + id).subscribe();
+  }
+
+  getUser(id: number): Observable<boolean> {
+    return this.http.get('http://localhost:8080/user/' + id)
+      .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
+  }
+
+  setMaxRondes(max: number) {
+    this.http.get('http://localhost:8080/rondes/' + max)
+      .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
+  }
+
+  setSpel() {
+    this.http.get('http://localhost:8080/spel')
+      .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
+  }
+
+  getStuff(): Observable<number[]> {
+    return this.http.get('http://localhost:8080/stuff')
+      .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
+  }
+
 }

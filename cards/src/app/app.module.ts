@@ -15,6 +15,8 @@ import {CardService} from './card.service';
 import { HandevalComponent } from './handeval/handeval.component';
 import { EndComponent } from './end/end.component';
 import { StartComponent } from './start/start.component';
+import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { KeuzesComponent } from './keuzes/keuzes.component';
 
 
 @NgModule({
@@ -28,9 +30,11 @@ import { StartComponent } from './start/start.component';
     HandevalComponent,
     EndComponent,
     StartComponent,
+    KeuzesComponent,
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     ReactiveFormsModule,
     HttpClientModule
   ],

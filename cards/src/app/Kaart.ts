@@ -5,8 +5,12 @@ export class Kaart {
   select = false;
   numPicks = 0;
 
-  constructor(id: Number, text: String) {
+  constructor(id: Number, text: String, public state= 'inactive') {
     this.text = text;
     this.id = id;
+  }
+
+  toggleCardState() {
+    this.state = this.state === 'active' ? 'inactive' : 'active';
   }
 }

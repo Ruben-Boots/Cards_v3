@@ -8,13 +8,27 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+
 import com.littleworld.todo.services.CardService;
 import com.littleworld.todo.services.WhiteCardService;
 import com.littleworld.todo.services.BlackCardService;
 
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
 @CrossOrigin(origins = "http://localhost:4200")
 @Controller
 public class CardController {
+    int maxRondes = 0;
+    int count = 0 ;
+    int id = 0 ;
+    int bevestig = 0;
+    boolean spel = false;
+    boolean speelronde = false;
+    String[] sets = {"Maindeck","EXP1"};
+
+    ArrayList<User> users = new ArrayList<>();
 
     @Autowired  private CardService cardService;
 
@@ -23,6 +37,84 @@ public class CardController {
     @Autowired  private BlackCardService cardBlack;
 
     static ReadCards reader = new ReadCards();
+    static BlackCard blackCard;
+
+    @ResponseBody
+    @RequestMapping(value = "/stuff", method = RequestMethod.GET)
+    public int[] getStuff() {
+        int[] stuff = new int[4];
+        stuff[0] = bevestig;
+        stuff[1] = users.size();
+        stuff[2] = spel?1:0;
+        stuff[3] = speelronde?1:0;
+        return stuff;
+    }
+
+
+    @ResponseBody
+    @RequestMapping(value = "/add", method = RequestMethod.GET)
+    public int addUser() {
+        System.out.println("in adduser");
+        System.err.println("in adduser");
+        id++;
+        users.add(new User((users.size() == 0), id));
+        return id;
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/remove/{id}", method = RequestMethod.GET)
+    public void removeUser(@PathVariable int id) {
+        System.out.println("in Remove user");
+        System.err.println("in Remove user");
+        Iterator<User> i = users.iterator();
+        while (i.hasNext()) {
+            User u = i.next(); // must be called before you can call i.remove()
+            if (u.getId() == id) {
+                i.remove();
+            }
+        }
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/user/{id}", method = RequestMethod.GET)
+    public boolean getUser(@PathVariable int id) {
+        for (User user : users) {
+            if (user.getId()==id) {
+                return user.isFirst();
+            }
+        }
+        return users.get(0).isFirst();
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/user/{id}/{ronde}", method = RequestMethod.GET)
+    public void updateUser(@PathVariable int id, @PathVariable int ronde) {
+        for (User user : users) {
+            if (user.getId()==id) {
+                user.setRonde(ronde);
+            }
+        }
+    }
+
+    @RequestMapping(value = "/rondes/{max}", method = RequestMethod.GET)
+    public void setMaxRondes(@PathVariable int max) {
+        maxRondes = max;
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/rondes", method = RequestMethod.GET)
+    public int getMaxRondes() {
+        return maxRondes;
+    }
+
+    @RequestMapping(value = "/spel", method = RequestMethod.GET)
+    public void setSpel() {
+        spel = !spel;
+    }
+
+
+
+
 
     //curl -H "Content-Type: application/json" -X POST -d '{"id": 0, "task": "taskTest"}' http://localhost:8080/todo
     @ResponseBody
@@ -48,11 +140,10 @@ public class CardController {
     @ResponseBody
     @RequestMapping(value = "/card/draw/{aantal}", method = RequestMethod.GET)
     public WhiteCard[] findAll(@PathVariable int aantal) {
-        System.err.println(aantal);
-        if(cardWhite.count()==0)
+        if(!cardWhite.exists((long) 1))
             reader.read(cardBlack,cardWhite);
         if(reader.trackwhite.isEmpty())
-            reader.resetTrack(cardBlack,cardWhite);
+            reader.resetTrack(cardBlack,cardWhite,sets);
 
 
 
@@ -62,11 +153,24 @@ public class CardController {
     @ResponseBody
     @RequestMapping(value = "/blackcard", method = RequestMethod.GET)
     public BlackCard BlackCard() {
-        if(cardWhite.count()==0)
-            reader.read(cardBlack,cardWhite);
-        if(reader.trackwhite.isEmpty())
-            reader.resetTrack(cardBlack,cardWhite);
-        return reader.drawBlack(cardBlack);
+        count++;
+        if (blackCard==null||count==users.size()) {
+            if(!cardWhite.exists((long)1))
+                reader.read(cardBlack,cardWhite);
+            if(reader.trackwhite.isEmpty())
+                reader.resetTrack(cardBlack,cardWhite,sets);
+            blackCard = reader.drawBlack(cardBlack);
+            count = 0;
+            return blackCard;
+        } else {
+            return blackCard;
+        }
+
+//        if(cardWhite.count()==0)
+//            reader.read(cardBlack,cardWhite);
+//        if(reader.trackwhite.isEmpty())
+//            reader.resetTrack(cardBlack,cardWhite);
+//        return reader.drawBlack(cardBlack);
     }
 
     //curl  http://localhost:8080/todo/1

@@ -8,8 +8,8 @@
     </div>
   </div>
 
-  <div *ngFor="let kaart of selectedCards">
-    <div *ngIf="kaart.select" class="d-flex p-3 pb-4">
+  <div *ngFor="let kaart of selectedCards" [@flyInOut]="in">
+    <div *ngIf="kaart.select" class="d-flex p-3 pb-4" >
 
       <div class="card shadow p-2 bg-light mb-20" style=" width: 13rem; height: 18rem">
         <div class="card-body">

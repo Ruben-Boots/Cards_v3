@@ -11,16 +11,18 @@ public class WhiteCard
 	@Id
 	protected long id;
 	protected String text;
+	protected String cardset;
 
 	public WhiteCard()
 	{
 
 	}
 
-	public WhiteCard(String txt, long id)
+	public WhiteCard(String txt, long id, String cardset)
 	{
 		this.id = id;
 		this.text = txt;
+		this.cardset = cardset;
 	}
 
 	public void setText(String text)
@@ -31,6 +33,16 @@ public class WhiteCard
 	public String getText()
 	{
 		return this.text;
+	}
+
+	public void setCardset(String cardset)
+	{
+		this.cardset = cardset;
+	}
+
+	public String getCardset()
+	{
+		return this.cardset;
 	}
 
 	public void setId(long id)

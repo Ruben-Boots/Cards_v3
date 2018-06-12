@@ -4,6 +4,8 @@ import {DataService} from '../data.service';
 import {Kaart} from '../Kaart';
 import {AppComponent} from '../app.component';
 
+
+
 @Component({
   selector: 'app-cardeval',
   templateUrl: './cardeval.component.html',

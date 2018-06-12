@@ -1,7 +1,7 @@
 import {Component, Inject, OnInit} from '@angular/core';
 import {FormBuilder, Validators} from '@angular/forms';
-import {TodoServiceService} from '../todo-service.service';
 import {AppComponent} from '../app.component';
+import {CardService} from '../card.service';
 
 @Component({
   selector: 'app-start',
@@ -9,19 +9,22 @@ import {AppComponent} from '../app.component';
   styleUrls: ['./start.component.css']
 })
 export class StartComponent implements OnInit {
+  geklikt = false;
 
-  constructor(public fb: FormBuilder, @Inject(AppComponent) private parent: AppComponent) {
+  constructor(private cardService: CardService, public fb: FormBuilder, @Inject(AppComponent) private parent: AppComponent) {
   }
 
   public startForm = this.fb.group({
-    rondes: [10, Validators.required],
     naam: ['Sjaak', Validators.required]
   });
 
   public saveSettings(event) {
-    this.parent.maxRondes = this.startForm.controls['rondes'].value;
     this.parent.naam = this.startForm.controls['naam'].value;
-    this.parent.ronde++;
+    this.cardService.addUser().subscribe(id => {
+      this.parent.id = id;
+      this.cardService.getUser(this.parent.id).subscribe(first => this.parent.first = first);
+    });
+    this.geklikt = true;
   }
 
   ngOnInit() {
