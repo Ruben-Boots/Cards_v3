@@ -3,6 +3,7 @@ import {DataService} from '../data.service';
 
 import {Kaart} from '../Kaart';
 import {AppComponent} from '../app.component';
+import {CardService} from '../card.service';
 
 
 
@@ -12,25 +13,20 @@ import {AppComponent} from '../app.component';
   styleUrls: ['./cardeval.component.css']
 })
 export class CardevalComponent implements OnInit {
-  blackCard: Kaart = new Kaart( 0 , '');
   cards: Kaart[];
   selected = 0;
 
-  constructor(private dataService: DataService, @Inject(AppComponent) private parent: AppComponent) { }
+  constructor(private dataService: DataService, @Inject(AppComponent) private parent: AppComponent, private cardService: CardService) { }
 
   ngOnInit() {
     this.dataService.selectedCardsUpdated.subscribe(cards => this.cards = cards);
     this.dataService.selectedUpdated.subscribe(selected => this.selected = selected);
-    this.dataService.blackCardUpdated.subscribe(blackCard => this.blackCard = blackCard);
   }
 
   bevestig() {
-    this.dataService.kaartToString();
-    this.dataService.drawOneBlack();
-    this.dataService.removeSelectedCards();
-    this.dataService.drawNewCards();
-    this.parent.ronde++;
-    this.parent.speelronde = true;
+    console.log(this.parent.playedCards.has(1));
+    this.cardService.volgendeRonde();
+    this.cardService.resetBevestig();
   }
 
 }

@@ -3,7 +3,7 @@
 
     <div class="card shadow p-2 text-white mb-20" style="background-color:#000000; width: 13rem; height: 18rem">
       <div class="card-body">
-        <h5 class="card-title">{{blackCard.text}}</h5>
+        <h5 class="card-title">{{this.parent.blackCard.text}}</h5>
       </div>
     </div>
   </div>
@@ -18,5 +18,11 @@
 
   </div>
 </div>
-<button class="btn btn-outline-light btn-lg" (click)="bevestig()">Volgende ronde</button>
+<div *ngIf="this.parent.first">
+<button class="btn btn-outline-light btn-lg" [disabled]="this.parent.bevestig < this.parent.spelers" (click)="bevestig()">Volgende ronde</button>
+</div>
+<div *ngIf="!this.parent.first">
+  <h4 class="text-white">Wacht op de baas.</h4>
+</div>
+
 <h4> <br></h4>

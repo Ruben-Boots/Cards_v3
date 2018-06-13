@@ -17,8 +17,9 @@ export class EndComponent implements OnInit {
   }
 
   nogEenKeer() {
-    this.parent.ronde = 0;
-    this.cardService.removeUser(this.parent.id);
+    this.parent.first = false;
+    this.cardService.resetSpring();
+    // this.cardService.removeUser(this.parent.id);
     this.dataService.newHand();
   }
 

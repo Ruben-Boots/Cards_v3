@@ -15,18 +15,22 @@ import com.littleworld.todo.services.BlackCardService;
 
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://10.2.22.105:4200")
 @Controller
 public class CardController {
     int maxRondes = 0;
     int count = 0 ;
     int id = 0 ;
     int bevestig = 0;
+    int ronde = 0;
     boolean spel = false;
-    boolean speelronde = false;
-    String[] sets = {"Maindeck","EXP1"};
+    String[] sets = {"Maindeck","EXP1",""};
+    Map playedCards = new HashMap();
 
     ArrayList<User> users = new ArrayList<>();
 
@@ -37,7 +41,76 @@ public class CardController {
     @Autowired  private BlackCardService cardBlack;
 
     static ReadCards reader = new ReadCards();
-    static BlackCard blackCard;
+    static ArrayList<BlackCard> blackCards = new ArrayList<>();
+
+    @ResponseBody
+    @RequestMapping(value = "/playedCards", method = RequestMethod.GET)
+    public Map getPlayed() {
+        return playedCards;
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/playedCards/clear", method = RequestMethod.GET)
+    public void clearPlayed() {
+        playedCards = new HashMap();
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/playedCards/{id}", method = RequestMethod.POST)
+    public void setPlayed(@RequestBody String[] cards, @PathVariable int id) {
+        playedCards.put(id,cards);
+        System.out.println(playedCards);
+    }
+
+
+
+    @ResponseBody
+    @RequestMapping(value = "/sets", method = RequestMethod.POST)
+    public void create(@RequestBody String[] sets) {
+        this.sets = sets;
+    }
+
+
+    @ResponseBody
+    @RequestMapping(value = "/blackcard/reset", method = RequestMethod.GET)
+    public void resetBlackCard() {
+        blackCards = new ArrayList<>();
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/bevestig/reset", method = RequestMethod.GET)
+    public void resetBevestig() {
+        bevestig = 0;
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/bevestig", method = RequestMethod.GET)
+    public void setBevestig() {
+        bevestig++;
+    }
+
+
+    @ResponseBody
+    @RequestMapping(value = "/ronde", method = RequestMethod.GET)
+    public void volgendeRonde() {
+        ronde++;
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/ronde/reset", method = RequestMethod.GET)
+    public void rondeReset() {
+        ronde = 0;
+    }
+
+
+    @ResponseBody
+    @RequestMapping(value = "/reset", method = RequestMethod.GET)
+    public void resetSpring() {
+        bevestig = 0;
+        users = new ArrayList<>();
+        spel = false;
+        ronde = 0;
+    }
 
     @ResponseBody
     @RequestMapping(value = "/stuff", method = RequestMethod.GET)
@@ -45,8 +118,8 @@ public class CardController {
         int[] stuff = new int[4];
         stuff[0] = bevestig;
         stuff[1] = users.size();
-        stuff[2] = spel?1:0;
-        stuff[3] = speelronde?1:0;
+        stuff[2] = ronde;
+        stuff[3] = maxRondes;
         return stuff;
     }
 
@@ -54,8 +127,6 @@ public class CardController {
     @ResponseBody
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public int addUser() {
-        System.out.println("in adduser");
-        System.err.println("in adduser");
         id++;
         users.add(new User((users.size() == 0), id));
         return id;
@@ -64,8 +135,6 @@ public class CardController {
     @ResponseBody
     @RequestMapping(value = "/remove/{id}", method = RequestMethod.GET)
     public void removeUser(@PathVariable int id) {
-        System.out.println("in Remove user");
-        System.err.println("in Remove user");
         Iterator<User> i = users.iterator();
         while (i.hasNext()) {
             User u = i.next(); // must be called before you can call i.remove()
@@ -96,6 +165,7 @@ public class CardController {
         }
     }
 
+    @ResponseBody
     @RequestMapping(value = "/rondes/{max}", method = RequestMethod.GET)
     public void setMaxRondes(@PathVariable int max) {
         maxRondes = max;
@@ -106,12 +176,6 @@ public class CardController {
     public int getMaxRondes() {
         return maxRondes;
     }
-
-    @RequestMapping(value = "/spel", method = RequestMethod.GET)
-    public void setSpel() {
-        spel = !spel;
-    }
-
 
 
 
@@ -140,36 +204,55 @@ public class CardController {
     @ResponseBody
     @RequestMapping(value = "/card/draw/{aantal}", method = RequestMethod.GET)
     public WhiteCard[] findAll(@PathVariable int aantal) {
-        if(!cardWhite.exists((long) 1))
+        if(!cardWhite.exists((long) 0))
             reader.read(cardBlack,cardWhite);
-        if(reader.trackwhite.isEmpty())
-            reader.resetTrack(cardBlack,cardWhite,sets);
-
-
-
+        if (ronde == 1 || reader.trackwhite.isEmpty()) {
+            reader.resetTrack(cardBlack, cardWhite, sets);
+        }
         return reader.drawWhite(aantal,cardWhite);
+
+
+//        if(reader.trackwhite.isEmpty())
+//            reader.resetTrack(cardBlack,cardWhite,sets);
+//
+//
+//
+//        return reader.drawWhite(aantal,cardWhite);
     }
 
     @ResponseBody
     @RequestMapping(value = "/blackcard", method = RequestMethod.GET)
     public BlackCard BlackCard() {
-        count++;
-        if (blackCard==null||count==users.size()) {
-            if(!cardWhite.exists((long)1))
-                reader.read(cardBlack,cardWhite);
-            if(reader.trackwhite.isEmpty())
-                reader.resetTrack(cardBlack,cardWhite,sets);
-            blackCard = reader.drawBlack(cardBlack);
-            count = 0;
-            return blackCard;
-        } else {
-            return blackCard;
+        if(!cardWhite.exists((long) 0))
+            reader.read(cardBlack,cardWhite);
+        if (ronde == 1 || reader.trackblack.isEmpty()) {
+            reader.resetTrack(cardBlack,cardWhite,sets);
         }
+
+
+        if (blackCards.isEmpty()) {
+            for (int i=0; i <= maxRondes; i++) {
+                blackCards.add(reader.drawBlack(cardBlack));
+            }
+        }
+        return blackCards.get(ronde-1);
+//        count++;
+//        if (blackCard==null||count==users.size()) {
+//            if(!cardWhite.exists((long)1))
+//                reader.read(cardBlack,cardWhite);
+//            if(reader.trackwhite.isEmpty())
+//                reader.resetTrack(cardBlack,cardWhite,sets);
+//            blackCard = reader.drawBlack(cardBlack);
+//            count = 0;
+//            return blackCard;
+//        } else {
+//            return blackCard;
+//        }
 
 //        if(cardWhite.count()==0)
 //            reader.read(cardBlack,cardWhite);
 //        if(reader.trackwhite.isEmpty())
-//            reader.resetTrack(cardBlack,cardWhite);
+//            reader.resetTrack(cardBlack,cardWhite,sets);
 //        return reader.drawBlack(cardBlack);
     }
 

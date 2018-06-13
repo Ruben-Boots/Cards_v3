@@ -34,7 +34,6 @@ export class HandComponent implements OnInit {
       //   }
       // }
 
-
       if (kaart.select) {
         this.selected--;
       } else {

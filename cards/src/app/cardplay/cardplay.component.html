@@ -3,7 +3,7 @@
 
     <div class="card shadow p-2 text-white mb-20" style="background-color:#000000; width: 13rem; height: 18rem">
       <div class="card-body">
-        <h5 class="card-title">{{blackCard.text}}</h5>
+        <h5 class="card-title">{{this.parent.blackCard.text}}</h5>
       </div>
     </div>
   </div>
@@ -20,8 +20,8 @@
     </div>
   </div>
 </div>
-<button class="btn btn-outline-light btn-lg" [disabled]="!(blackCard.numPicks===selected)" (click)="bevestig()">Bevestig keuze</button>
+<button class="btn btn-outline-light btn-lg" [disabled]="!(this.parent.blackCard.numPicks===selected)" (click)="bevestig()">Bevestig keuze</button>
 
-<h4 *ngIf="blackCard.numPicks===1;else kaarten" class="text-white">Kies een kaart:</h4>
-<ng-template #kaarten><h4 class="text-white">Kies {{blackCard.numPicks}} kaarten:</h4></ng-template>
+<h4 *ngIf="this.parent.blackCard.numPicks===1;else kaarten" class="text-white">Kies een kaart:</h4>
+<ng-template #kaarten><h4 class="text-white">Kies {{this.parent.blackCard.numPicks}} kaarten:</h4></ng-template>
 

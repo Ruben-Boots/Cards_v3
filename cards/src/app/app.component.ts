@@ -2,7 +2,9 @@ import { Component, OnInit} from '@angular/core';
 import {CardService} from './card.service';
 import {Observable} from '../../node_modules/rxjs';
 import {AnonymousSubscription} from 'rxjs/Subscription';
-import {timer} from 'rxjs/observable/timer';
+import {DataService} from './data.service';
+import {Kaart} from './Kaart';
+import {TSMap} from 'typescript-map';
 
 @Component({
   selector: 'app-root',
@@ -11,9 +13,15 @@ import {timer} from 'rxjs/observable/timer';
 })
 export class AppComponent implements OnInit {
   title = 'app';
-  spel = false;
-  speelronde = true;
+  blackCard: Kaart = new Kaart( 0 , '');
 
+  speelronde = true;
+  wacht = true;
+  geklikt = false;
+
+  playedCards = new TSMap<number, string[]>();
+
+  bevestig = 0;
   spelers = 0;
   ronde = 0;
   maxRondes = 10;
@@ -23,21 +31,52 @@ export class AppComponent implements OnInit {
 
   private timerSubscription: AnonymousSubscription;
 
-  constructor(private cardService: CardService) {}
+  constructor(private cardService: CardService, private dataService: DataService) {}
 
   private refreshData(): void {
+    this.cardService.getPlayedCards().subscribe( played => {
+      this.playedCards = played;
+      console.log(this.playedCards.get(this.id));
+    });
     this.cardService.getStuff().subscribe(user => {
+      this.bevestig = user[0];
       this.spelers = user[1];
+
+      if (this.ronde < user[2] && this.ronde !== 0) {
+        this.dataService.drawOneBlack();
+        this.dataService.removeSelectedCards();
+        this.dataService.drawNewCards();
+      }
+
+      if (this.ronde !== user[2]) {
+        this.ronde = user[2];
+        this.speelronde = true;
+      }
+
+      if (this.ronde === 0) {
+        this.wacht = false;
+      }
+      this.maxRondes = user[3];
+
       console.log(user);
       this.subscribeToData();
     });
-  }
+  };
 
   private subscribeToData(): void {
-    this.timerSubscription = Observable.timer(2000).first().subscribe(() => this.refreshData());
-  }
+    this.timerSubscription = Observable.timer(1000).first().subscribe(() => this.refreshData());
+  };
 
   ngOnInit() {
+    this.dataService.blackCardUpdated.subscribe(blackCard => this.blackCard = blackCard);
+    this.cardService.getStuff().subscribe(
+      user => {this.wacht = (user[2] !== 0); }
+    );
     this.refreshData();
+  }
+
+  resetSpring() {
+    this.cardService.resetSpring();
+    this.first = false;
   }
 }

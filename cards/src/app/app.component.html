@@ -1,21 +1,29 @@
-
 <h1 class="text-white">Cards Against Humanity</h1>
 
-<div *ngIf="ronde===0">
-<app-start></app-start>
-<app-keuzes *ngIf="first"></app-keuzes>
-</div>
+<div *ngIf="wacht"><h2 class="text-white">Wacht tot dit spel is afgelopen</h2></div>
 
-<div [hidden]="ronde===0">
-  <div [hidden]="ronde===maxRondes+1">
-    <h3 class="text-white"> Ronde: {{ronde}} <br> Speler: {{naam}}</h3>
-
-  <app-cardplay [hidden]="!speelronde"></app-cardplay>
-  <app-cardeval [hidden]="speelronde"></app-cardeval>
-
-  <app-hand [hidden]="!speelronde"></app-hand>
-  <app-handeval [hidden]="speelronde"></app-handeval>
+<div *ngIf="!wacht">
+  <div *ngIf="ronde===0">
+    <app-start></app-start>
+    <app-keuzes *ngIf="first"></app-keuzes>
+    <div *ngIf="!first">
+      <div *ngIf="geklikt"><h2 class="text-white">Wacht op de baas!</h2></div>
+    </div>
   </div>
-</div>
 
-<app-end [hidden]="ronde!=maxRondes+1"></app-end>
+  <div *ngIf="ronde!=0">
+    <div *ngIf="ronde<=maxRondes">
+      <h3 class="text-white"> Ronde: {{ronde}} <br> Speler: {{naam}}</h3>
+
+      <app-cardplay [hidden]="!speelronde"></app-cardplay>
+      <app-cardeval [hidden]="speelronde"></app-cardeval>
+
+      <app-hand [hidden]="!speelronde"></app-hand>
+      <app-handeval [hidden]="speelronde"></app-handeval>
+    </div>
+  </div>
+
+  <app-end [hidden]="ronde!=maxRondes+1"></app-end>
+</div><br><br>
+<button (click)="resetSpring()">Reset spring</button>
+

@@ -9,7 +9,6 @@ import {CardService} from '../card.service';
   styleUrls: ['./start.component.css']
 })
 export class StartComponent implements OnInit {
-  geklikt = false;
 
   constructor(private cardService: CardService, public fb: FormBuilder, @Inject(AppComponent) private parent: AppComponent) {
   }
@@ -24,7 +23,7 @@ export class StartComponent implements OnInit {
       this.parent.id = id;
       this.cardService.getUser(this.parent.id).subscribe(first => this.parent.first = first);
     });
-    this.geklikt = true;
+    this.parent.geklikt = true;
   }
 
   ngOnInit() {

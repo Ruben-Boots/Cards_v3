@@ -36,7 +36,7 @@ import {AppComponent} from '../app.component';
   ]
 })
 export class CardplayComponent implements OnInit {
-  blackCard: Kaart = new Kaart( 0 , '');
+
   selectedCards: Kaart[];
   selected = 0;
   cards: Kaart[];
@@ -47,13 +47,21 @@ export class CardplayComponent implements OnInit {
   ngOnInit() {
     this.dataService.drawOneBlack();
     this.dataService.cardsUpdated.subscribe(cards => this.cards = cards);
-    this.dataService.blackCardUpdated.subscribe(blackCard => this.blackCard = blackCard);
     this.dataService.selectedCardsUpdated.subscribe(selectedCards => this.selectedCards = selectedCards);
     this.dataService.selectedUpdated.subscribe(selected => this.selected = selected);
   }
 
   bevestig() {
+    const teksten = [''];
+    for (const kaart of this.selectedCards) {
+      teksten.push(kaart.text);
+    }
+    teksten.splice(0, 1);
+    console.log(teksten);
+    this.cardService.setPlayedCards(teksten, this.parent.id);
     this.dataService.removeHandCards();
+    this.cardService.setBevestig();
+    this.parent.geklikt = false;
     this.parent.speelronde = false;
   }
 }
