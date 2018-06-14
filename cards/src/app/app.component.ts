@@ -1,4 +1,4 @@
-import { Component, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {CardService} from './card.service';
 import {Observable} from '../../node_modules/rxjs';
 import {AnonymousSubscription} from 'rxjs/Subscription';
@@ -13,13 +13,14 @@ import {TSMap} from 'typescript-map';
 })
 export class AppComponent implements OnInit {
   title = 'app';
-  blackCard: Kaart = new Kaart( 0 , '');
+  blackCard: Kaart = new Kaart(0, '');
 
   speelronde = true;
   wacht = true;
   geklikt = false;
+  czarview = false;
 
-  playedCards = new TSMap<number, string[]>();
+  playedCards: string[];
 
   bevestig = 0;
   spelers = 0;
@@ -31,21 +32,39 @@ export class AppComponent implements OnInit {
 
   private timerSubscription: AnonymousSubscription;
 
-  constructor(private cardService: CardService, private dataService: DataService) {}
+  constructor(private cardService: CardService, private dataService: DataService) {
+  }
 
   private refreshData(): void {
-    this.cardService.getPlayedCards().subscribe( played => {
+
+    this.cardService.getPlayedCards().subscribe(played => {
       this.playedCards = played;
-      console.log(this.playedCards.get(this.id));
     });
+
     this.cardService.getStuff().subscribe(user => {
       this.bevestig = user[0];
       this.spelers = user[1];
+      this.czarview = user[4];
 
       if (this.ronde < user[2] && this.ronde !== 0) {
-        this.dataService.drawOneBlack();
-        this.dataService.removeSelectedCards();
-        this.dataService.drawNewCards();
+        if (!this.wacht) {
+
+          this.dataService.drawOneBlack();
+          this.dataService.removeSelectedCards();
+          this.dataService.drawNewCards();
+        }
+      }
+
+      if (this.ronde !== 0 && user[2] === 0) {
+        this.geklikt = false;
+        this.wacht = false;
+        console.log('wacht->false');
+      }
+
+
+      if (this.ronde === 0 && user[2] === 1 && !this.geklikt) {
+        console.log('wacht -> true');
+        this.wacht = true;
       }
 
       if (this.ronde !== user[2]) {
@@ -53,24 +72,22 @@ export class AppComponent implements OnInit {
         this.speelronde = true;
       }
 
-      if (this.ronde === 0) {
-        this.wacht = false;
-      }
       this.maxRondes = user[3];
 
-      console.log(user);
       this.subscribeToData();
     });
-  };
+  }
 
   private subscribeToData(): void {
     this.timerSubscription = Observable.timer(1000).first().subscribe(() => this.refreshData());
-  };
+  }
 
   ngOnInit() {
     this.dataService.blackCardUpdated.subscribe(blackCard => this.blackCard = blackCard);
     this.cardService.getStuff().subscribe(
-      user => {this.wacht = (user[2] !== 0); }
+      user => {
+        this.wacht = (user[2] !== 0);
+      }
     );
     this.refreshData();
   }

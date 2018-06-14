@@ -14,8 +14,8 @@ export class CardService {
 
   constructor(private http: HttpClient) { }
 
-  getPlayedCards(): Observable<TSMap<number, string[]>> {
-    return this.http.get('http://'  + this.origin + '/playedCards').map((response: Response) => <TSMap>(response));
+  getPlayedCards(): Observable<any> {
+    return this.http.get('http://'  + this.origin + '/playedCards');
   }
 
   clearPlayedCards() {
@@ -24,6 +24,10 @@ export class CardService {
 
   setPlayedCards(playedCards: string[], id: number) {
     this.http.post('http://'  + this.origin + '/playedCards/' + id, playedCards).subscribe();
+  }
+
+  createPlayed() {
+    this.http.get('http://'  + this.origin + '/playedCards/create').subscribe();
   }
 
   setSets(sets: string[]) {
@@ -40,14 +44,18 @@ export class CardService {
       .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
   }
 
-  addUser(): Observable<number> {
-    return this.http.get('http://' + this.origin + '/add')
+  addUser(naam: string): Observable<number> {
+    return this.http.get('http://' + this.origin + '/add/' + naam)
       .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
   }
 
   getUser(id: number): Observable<boolean> {
     return this.http.get('http://' + this.origin + '/user/' + id)
       .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
+  }
+
+  getUserNaam(id: number): Observable<string> {
+     return this.http.get('http://' + this.origin + '/user/naam/' + id);
   }
 
   setMaxRondes(max: number) {
@@ -62,6 +70,10 @@ export class CardService {
   resetSpring() {
     this.http.get('http://' + this.origin + '/reset')
       .catch((error: any) => Observable.throw(error.json().error || 'Server error')).subscribe();
+  }
+
+  setCzarview() {
+    this.http.get('http://' + this.origin + '/czarview').subscribe();
   }
 
   volgendeRonde() {

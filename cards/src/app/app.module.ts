@@ -17,6 +17,7 @@ import { EndComponent } from './end/end.component';
 import { StartComponent } from './start/start.component';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { KeuzesComponent } from './keuzes/keuzes.component';
+import { PlayedcardsComponent } from './playedcards/playedcards.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { KeuzesComponent } from './keuzes/keuzes.component';
     EndComponent,
     StartComponent,
     KeuzesComponent,
+    PlayedcardsComponent,
   ],
   imports: [
     BrowserModule,

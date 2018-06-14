@@ -96,7 +96,7 @@ public class ReadCards {
         }
     }
 
-    public void resetTrack(BlackCardService repob, WhiteCardService repow, String[] sets) {
+    public synchronized void resetTrack(BlackCardService repob, WhiteCardService repow, String[] sets) {
         this.trackblack.clear();
         this.trackwhite.clear();
 
@@ -127,7 +127,7 @@ public class ReadCards {
             for (int i = 0; i < numCards; ++i) {
                 idx = (int) (Math.random() * trackwhite.size());
                 res[i] = repow.findOne(trackwhite.get(idx));
-                trackwhite.remove(trackwhite.get(idx));
+                trackwhite.remove(idx);
             }
         }
 

@@ -31,6 +31,7 @@ export class KeuzesComponent implements OnInit {
         this.sets[i] = 'EXP' + i;
       }
     }
+    this.cardService.createPlayed();
     this.cardService.setSets(this.sets);
     this.parent.maxRondes = this.startForm.controls['rondes'].value;
     this.cardService.clearPlayedCards();

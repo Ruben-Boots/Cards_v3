@@ -1,13 +1,17 @@
 package com.littleworld.todo.model;
 
 public class User {
+    String naam;
     boolean first;
     int ronde = 0;
     int id;
 
-    public User (boolean first, int id) {
+
+
+    public User (boolean first, int id, String naam) {
         this.first = first;
         this.id = id;
+        this.naam = naam;
     }
 
     public boolean isFirst() {
@@ -32,5 +36,12 @@ public class User {
 
     public void setId(int id) {
         this.id = id;
+    }
+    public String getNaam() {
+        return naam;
+    }
+
+    public void setNaam(String naam) {
+        this.naam = naam;
     }
 }

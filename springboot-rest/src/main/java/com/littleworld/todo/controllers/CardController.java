@@ -29,8 +29,9 @@ public class CardController {
     int bevestig = 0;
     int ronde = 0;
     boolean spel = false;
+    boolean czarview = false;
     String[] sets = {"Maindeck","EXP1",""};
-    Map playedCards = new HashMap();
+    String[] playedCards;
 
     ArrayList<User> users = new ArrayList<>();
 
@@ -45,24 +46,38 @@ public class CardController {
 
     @ResponseBody
     @RequestMapping(value = "/playedCards", method = RequestMethod.GET)
-    public Map getPlayed() {
+    public String[] getPlayed() {
         return playedCards;
     }
 
     @ResponseBody
     @RequestMapping(value = "/playedCards/clear", method = RequestMethod.GET)
     public void clearPlayed() {
-        playedCards = new HashMap();
+
     }
 
     @ResponseBody
     @RequestMapping(value = "/playedCards/{id}", method = RequestMethod.POST)
     public void setPlayed(@RequestBody String[] cards, @PathVariable int id) {
-        playedCards.put(id,cards);
-        System.out.println(playedCards);
+        System.out.println("user:" + id);
+        for (int i = 0; i < cards.length; i++) {
+            playedCards[(id-1)*3+i] = cards[i];
+        }
     }
 
+    @ResponseBody
+    @RequestMapping(value = "/playedCards/create", method = RequestMethod.GET)
+    public void createPlayed() {
+        System.out.println("users: " + users.size());
+        playedCards = new String[3*users.size()];
+        System.out.println("lengte playedcards" + playedCards.length);
+    }
 
+    @ResponseBody
+    @RequestMapping(value = "/czarview", method = RequestMethod.GET)
+    public void setCzarview() {
+        czarview = !czarview;
+    }
 
     @ResponseBody
     @RequestMapping(value = "/sets", method = RequestMethod.POST)
@@ -110,25 +125,40 @@ public class CardController {
         users = new ArrayList<>();
         spel = false;
         ronde = 0;
+        id = 0;
     }
 
     @ResponseBody
     @RequestMapping(value = "/stuff", method = RequestMethod.GET)
     public int[] getStuff() {
-        int[] stuff = new int[4];
+        int[] stuff = new int[5];
         stuff[0] = bevestig;
         stuff[1] = users.size();
         stuff[2] = ronde;
         stuff[3] = maxRondes;
+        stuff[4] = czarview?1:0;
         return stuff;
     }
 
 
     @ResponseBody
-    @RequestMapping(value = "/add", method = RequestMethod.GET)
-    public int addUser() {
+    @RequestMapping(value = "/user/naam/{id}", method = RequestMethod.GET)
+    public String getUserNaam(@PathVariable int id) {
+        System.out.println("id: " + id);
+        for (User user: users) {
+            if (user.getId()==id) {
+                System.out.println(id+ " naam:" + user.getNaam());
+                return "\""+user.getNaam()+"\"";
+            }
+        }
+        return "Sjaakdedraak";
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/add/{naam}", method = RequestMethod.GET)
+    public int addUser(@PathVariable String naam) {
         id++;
-        users.add(new User((users.size() == 0), id));
+        users.add(new User((users.size() == 0), id, naam));
         return id;
     }
 
@@ -203,12 +233,13 @@ public class CardController {
     //curl  http://localhost:8080/todo
     @ResponseBody
     @RequestMapping(value = "/card/draw/{aantal}", method = RequestMethod.GET)
-    public WhiteCard[] findAll(@PathVariable int aantal) {
-        if(!cardWhite.exists((long) 0))
+    public synchronized WhiteCard[] findAll(@PathVariable int aantal) {
+        if(!cardWhite.exists((long) 1))
             reader.read(cardBlack,cardWhite);
-        if (ronde == 1 || reader.trackwhite.isEmpty()) {
+        if (reader.trackwhite.isEmpty() || ronde == 1 ) {
             reader.resetTrack(cardBlack, cardWhite, sets);
         }
+
         return reader.drawWhite(aantal,cardWhite);
 
 
@@ -222,8 +253,8 @@ public class CardController {
 
     @ResponseBody
     @RequestMapping(value = "/blackcard", method = RequestMethod.GET)
-    public BlackCard BlackCard() {
-        if(!cardWhite.exists((long) 0))
+    public synchronized BlackCard BlackCard() {
+        if(!cardBlack.exists((long) 1))
             reader.read(cardBlack,cardWhite);
         if (ronde == 1 || reader.trackblack.isEmpty()) {
             reader.resetTrack(cardBlack,cardWhite,sets);

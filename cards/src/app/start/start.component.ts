@@ -19,7 +19,7 @@ export class StartComponent implements OnInit {
 
   public saveSettings(event) {
     this.parent.naam = this.startForm.controls['naam'].value;
-    this.cardService.addUser().subscribe(id => {
+    this.cardService.addUser(this.parent.naam).subscribe(id => {
       this.parent.id = id;
       this.cardService.getUser(this.parent.id).subscribe(first => this.parent.first = first);
     });

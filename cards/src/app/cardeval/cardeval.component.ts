@@ -24,9 +24,7 @@ export class CardevalComponent implements OnInit {
   }
 
   bevestig() {
-    console.log(this.parent.playedCards.has(1));
-    this.cardService.volgendeRonde();
-    this.cardService.resetBevestig();
+    this.cardService.setCzarview();
   }
 
 }

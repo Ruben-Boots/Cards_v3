@@ -1,0 +1,32 @@
+<div class="row justify-content-start">
+  <div class="d-flex p-3 pb-4">
+
+    <div class="card shadow p-2 text-white mb-20" style="background-color:#000000; width: 13rem; height: 18rem">
+      <div class="card-body">
+        <h5 class="card-title">{{this.parent.blackCard.text}}</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-secondary" *ngFor="let speler of spelers; let i = index">
+    <p class="text-white">{{speler}} speelde:</p>
+    <div *ngFor="let kaart of cards[i]" class="d-flex p-3 pb-4">
+          <div class="card shadow p-2 bg-light mb-20" style=" width: 13rem; height: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">{{kaart}}</h5>
+            </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div *ngIf="this.parent.first">
+  <button class="btn btn-outline-light btn-lg" [disabled]="this.parent.bevestig < this.parent.spelers"
+          (click)="bevestig()">Volgende ronde
+  </button>
+</div>
+<div *ngIf="!this.parent.first">
+  <h4 class="text-white">Wacht op de baas.</h4>
+</div>
+
+<h4><br></h4>

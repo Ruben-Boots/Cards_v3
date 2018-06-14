@@ -16,14 +16,22 @@
       <h3 class="text-white"> Ronde: {{ronde}} <br> Speler: {{naam}}</h3>
 
       <app-cardplay [hidden]="!speelronde"></app-cardplay>
-      <app-cardeval [hidden]="speelronde"></app-cardeval>
+
+      <div *ngIf="!czarview">
+        <app-cardeval [hidden]="speelronde"></app-cardeval>
+      </div>
+
+      <div *ngIf="czarview">
+        <app-playedcards *ngIf="!speelronde"></app-playedcards>
+      </div>
 
       <app-hand [hidden]="!speelronde"></app-hand>
       <app-handeval [hidden]="speelronde"></app-handeval>
     </div>
   </div>
 
+
   <app-end [hidden]="ronde!=maxRondes+1"></app-end>
 </div><br><br>
-<button (click)="resetSpring()">Reset spring</button>
+<!--<button (click)="resetSpring()">Reset spring</button>-->
 

@@ -2,5 +2,5 @@
 <form [formGroup]="startForm" (ngSubmit)="saveSettings($event)">
   <p class="text-white">Hoe heet je?</p>
   <input class="form-control form-control-lg" formControlName="naam" type="text" style="width: 200px"><br>
-  <button class="btn btn-outline-light btn-lg" [disabled]="geklikt" type="submit">Begin</button>
+  <button class="btn btn-outline-light btn-lg" [disabled]="this.parent.geklikt" type="submit">Begin</button>
 </form>

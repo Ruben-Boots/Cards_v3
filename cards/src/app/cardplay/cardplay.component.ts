@@ -57,11 +57,9 @@ export class CardplayComponent implements OnInit {
       teksten.push(kaart.text);
     }
     teksten.splice(0, 1);
-    console.log(teksten);
     this.cardService.setPlayedCards(teksten, this.parent.id);
     this.dataService.removeHandCards();
     this.cardService.setBevestig();
-    this.parent.geklikt = false;
     this.parent.speelronde = false;
   }
 }
