@@ -25,7 +25,12 @@ export class KeuzesComponent implements OnInit {
   });
 
 
+
+
+
   public saveSettings() {
+
+    // this.cardService.getAvailableSets().subscribe(cardsets => this.sets = cardsets);
     for (let i = 1; i < 7; i++) {
       if (this.startForm.controls['EXP' + i].value) {
         this.sets[i] = 'EXP' + i;

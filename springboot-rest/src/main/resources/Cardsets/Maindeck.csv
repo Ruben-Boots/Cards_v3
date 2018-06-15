@@ -1,0 +1,598 @@
+;http://cardsagainsthumanity.com/;;;;;;;;;;;;;;;;;;;;;;
+Prompt;______ + ______ = ______.;DRAW 2, PICK 3;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;______ is a slippery slope that leads to ______.;PICK 2;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;______: kid-tested, mother-approved.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;______. Betcha can't have just one!;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;
+Prompt;______. High five, bro.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;
+Prompt;______. It's a trap!;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;______. That was so metal.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;????? Do NOT go here! Found _____ in my Kung Pao chicken! ;;;;;;;;;;;;;;;;;;v2.0;v2.0;;v2.0;
+Prompt;50% of all marriages end in ______.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Prompt;A recent laboratory study shows that undergraduates have 50% less sex after being exposed to ______.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;A romantic, candlelit dinner would be incomplete without ______.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;After eight years in the White House, how is Obama finally letting loose?;;;;;;;;;;;;;;;;;;v2.0;;;;
+Prompt;After four platinum albums and three Grammys, it's time to get back to my roots, to what inspired me to make music in the first place: ______.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;Alternative medicine is now embracing the curative powers of ______.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;And the Academy Award for ______ goes to ______.;PICK 2;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;v2.0
+Prompt;Arby's: We Have ______.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Prompt;Bravo's new reality show features eight washed-up celebrities living with ______.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;
+Prompt;Brought to you by Bud Light®, the Official Beer of ______.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Prompt;But before I kill you, Mr. Bond, I must show you ______.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;"Check me out, yo! I call this dance move ""______.""";;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Prompt;Click Here for ______!!!;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;Coming to Broadway this season, ______: The Musical.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;v2.0
+Prompt;Dear Abby, I'm having some trouble with ______ and would like your advice.;;;;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Prompt;During sex, I like to think about ______.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;For my next trick, I will pull ______ out of ______.;PICK 2;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;Fun tip! When your man asks you to go down on him, try surprising him with ______ instead.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;Hey Reddit! I'm ______. Ask me anything.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;How did I lose my virginity?;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;I drink to forget ______.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;I get by with a little help from ______.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;I got 99 problems but ______ ain't one.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;I never truly understood ______ until I encountered ______.;PICK 2;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;I'm going on a cleanse this week. Nothing but kale juice and ______.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;I'm Lebron James, and when I'm not slamming dunks, I love ______.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;v2.0;
+Prompt;"I'm no doctor, but I'm pretty sure what you're suffering from is called ""______.""";;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;I'm sorry, Professor, but I couldn't complete my homework because of ______.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;v2.0
+Prompt;If you can't be with the one you love, love ______.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Prompt;IF you like ______, YOU MIGHT BE A REDNECK.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;
+Prompt;In M. Night Shyamalan's new movie, Bruce Willis discovers that ______ had really been ______ all along.;PICK 2;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;In the new Disney Channel Original Movie, Hannah Montana struggles with ______ for the first time.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;
+Prompt;Instead of coal, Santa now gives the bad children ______.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;
+Prompt;Introducing the amazing superhero/sidekick duo! It's ______ and ______!;PICK 2;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;Introducing X-Treme Baseball! It's like baseball, but with ______!;;;;;;;;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Prompt;It’s a pity that kids these days are all getting involved with ______.;;;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;Just saw this upsetting video! Please retweet!! #stop______;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;Kids, I don't need drugs to get high. I'm high on ______.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;Life for American Indians was forever changed when the White Man introduced them to ______.;;;;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;;v1.7a;v2.0;v2.0;v2.0;;
+Prompt;"Lifetime® presents ""______: the Story of ______.""";PICK 2;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;;;;;v2.0;;;;
+Prompt;Make a haiku.;DRAW 2, PICK 3;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;Maybe she's born with it. Maybe it's ______.;;;;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;Men's Wearhouse: You're gonna like ______. I guarantee it.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Prompt;Military historians remember Alexander the Great for his brilliant use of ______ against the Persians.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Prompt;Mr. and Mrs. Diaz, we called you in because we're concerned about Cynthia. Are you aware that your daughter is ______?;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;My fellow Americans: Before this decade is out, we will have ______ on the moon!;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;
+Prompt;Next from J.K. Rowling: Harry Potter and the Chamber of ______.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;Old MacDonald had ______. E-I-E-I-O.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Prompt;"Step 1: ______.
+Step 2: ______.
+Step 3: Profit.";PICK 2;;;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;That's right, I killed ______. How, you ask? ______.;PICK 2;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;The class field trip was completely ruined by ______.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;v2.0
+Prompt;The new Chevy Tahoe. With the power and space to take ______ everywhere you go.;;;;;;;;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Prompt;They said we were crazy. They said we couldn't put ______ inside of ______. They were wrong.;PICK 2;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;"This is the way the world ends
+This is the way the world ends
+Not with a bang but with ______.";;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;This season at Steppenwolf, Samuel Beckett's classic existential play: Waitng for ______.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Prompt;"Today on Maury: ""Help! My son is ______!""";;;;;;;;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Prompt;TSA guidelines now prohibit ______ on airplanes.;;v1.0;;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;;;;;v2.0;;;;
+Prompt;Uh, hey guys, I know this was my idea, but I'm having serious doubts about ______.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;War! What is it good for?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;Well if you'll excuse me, gentlemen, I have a date with ______.;;;;;;;;;;;;;v1.7;;v1.7;v1.7;;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;What are my parents hiding from me?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;What ended my last relationship?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;What gives me uncontrollable gas?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;What is Batman's guilty pleasure?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;What is George W. Bush thinking about right now?;;;;;;;;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;What made my first kiss so awkward?;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;What makes life worth living?;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;What never fails to liven up the party?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;What will always get you laid?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;What would grandma find disturbing, yet oddly charming?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;What's a girl's best friend?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;What's my secret power?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;What's Teach for America using to inspire inner city students to succeed?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;;;;;v2.0;;;;
+Prompt;What's that smell?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;What's that sound?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;What's there a ton of in heaven?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;;v1.7a;v2.0;v2.0;v2.0;;v2.0
+Prompt;When I am a billionare, I shall erect a 50-foot statue to commemorate ______.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;;v1.7a;v2.0;;v2.0;;
+Prompt;When I am President, I will create the Department of ______.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Prompt;When I was tripping on acid, ______ turned into ______.;PICK 2;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;When Pharaoh remained unmoved, Moses called down a Plague of ______.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;While the United States raced the Soviet Union to the moon, the Mexican government funneled millions of pesos into research on ______.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Prompt;White people like ______.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Prompt;Why am I sticky?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;Why can't I sleep at night?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Prompt;Why do I hurt all over?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;10,000 Syrian refugees.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;50 mg of Zoloft daily.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Response;50,000 volts straight to the nipples.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;72 virgins.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;8 oz. of sweet Mexican black-tar heroin.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;;v1.7a;v2.0;v2.0;v2.0;;
+Response;A bag of magic beans.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A balanced breakfast.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;A ball of earwax, semen, and toenail clippings.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A bird that shits human turds.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A bitch slap.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A bleached asshole.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;v2.0
+Response;A Bop It™.;;;;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;A bowl of mayonnaise and human teeth.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A brain tumor.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;;;;;v2.0;;;;v2.0
+Response;A crucifixion.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A disappointing birthday party.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A falcon with a cap on its head.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A fart so powerful that it wakes the giants from their thousand-year slumber.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A fetus.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;v2.0
+Response;A Fleshlight.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;;v2.0;
+Response;A fuck-ton of almonds.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Response;A good sniff.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A good, strong gorilla.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A gossamer stream of jizz that catches the light as it arcs through the morning air.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;A homoerotic volleyball montage.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A horde of Vikings.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A lifetime of sadness.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A little boy who won't shut the fuck up about dinosaurs.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A live studio audience.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;A man on the brink of orgasm.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A mating display.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;A Mexican.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;
+Response;A micropenis.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A micropig wearing a tiny raincoat and booties.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A middle-aged man on roller skates.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A mopey zoo lion.;;v1.0;;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;A much younger woman.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A pangender octopus who roams the cosmos in search of love.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;A pyramid of severed heads.;;;v1.1;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A really cool hat.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A sad handjob.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A salad for men that's made of metal.;;;;;;;;;;;;;;;;;;v2.0;;v2.0;v2.0;
+Response;A salty surprise.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A sassy black woman.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;;v1.7a;v2.0;v2.0;v2.0;;
+Response;A saxophone solo.;;;;;;;;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A sea of troubles.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A snapping turtle biting the tip of your penis.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A stray pube.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A Super Soaker™ full of cat pee.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;A three-way with my wife and Shaquille O'Neal.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;v2.0;
+Response;A time travel paradox.;;;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A tiny horse.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A tiny, gay guitar called a ukulele.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;A whole thing of butter.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;v2.0;
+Response;A windmill full of corpses.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Aaron Burr.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;;;v1.7;;;;;v2.0;;;;
+Response;Academy Award winner Meryl Streep.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Accepting the way things are.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Active listening.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;;
+Response;Adderall™.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;;;v1.7;;;;;v2.0;;;;
+Response;African children.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Agriculture.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;AIDS.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Alcoholism.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;All the dudes I've fucked.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;All-you-can-eat shrimp for $8.99.;;;;;;;;;;;;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;An AR-15 assault rifle.;;;;;;;;;;;;;v1.7;;;;;v2.0;;;;
+Response;An endless stream of diarrhea.;;;;;;;;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;v2.0
+Response;An erection that lasts longer than four hours.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;An M. Night Shyamalan plot twist.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;An octopus giving seven handjobs and smoking a cigarette.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;An Oedipus complex.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;An old guy who's almost dead.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;An older woman who knows her way around the penis.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;An oversized lollipop.;;;;;;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;An unwanted pregnancy.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Anal beads.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Announcing that I am about to cum.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Arnold Schwarzenegger.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Assless chaps.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;
+Response;Auschwitz.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Authentic Mexican cuisine.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Autocannibalism.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;AXE Body Spray.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;v2.0
+Response;Balls.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Bananas.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Barack Obama.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;BATMAN!;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Battlefield amputations.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Becoming a blueberry.;;;;;;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Bees?;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Being a dick to children.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Being a motherfucking sorcerer.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Being a woman.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Being able to talk to elephants.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Being fat and stupid.;;;;;;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Being marginalized.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Being on fire.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Being rich.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Bill Nye the Science Guy.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Bingeing and purging.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;;
+Response;Bisexuality.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Bitches.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Black people.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;;v1.7a;v2.0;v2.0;v2.0;;
+Response;Blowing my boyfriend so hard he shits.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Boogers.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;
+Response;Braiding three penises into a Twizzler.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;
+Response;Breaking out into song and dance.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Brown people.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Bubble butt bottom boys.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Cards Against Humanity.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Casually suggesting a threesome.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Catapults.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Centaurs.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Chainsaws for hands.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Chemical weapons.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Child abuse.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Child beauty pageants.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Chunks of dead hitchhiker.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;;v1.7a;v2.0;v2.0;v2.0;;
+Response;Coat hanger abortions.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Committing suicide.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Completely unwarranted confidence.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Concealing a boner.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;v2.0
+Response;Consensual sex.;;;;;;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Count Chocula.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Covering myself with Parmesan cheese and chili flakes because I am pizza.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Crippling debt.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Crumbs all over the god damn carpet.;;;;;;;;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Cuddling.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Daddy issues.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Daniel Radcliffe's delicious asshole.;;;;;;;;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;v2.0
+Response;Danny DeVito.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Dark and mysterious forces beyond our control.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Darth Vader.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;David Bowie flying in on a tiger made of lightning.;;;;;;;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Dead babies.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Dead birds everywhere.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Dead parents.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Dick fingers.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Dick pics.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Diversity.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;;v2.0
+Response;Doin' it in the butt.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Doing crimes.;;;;;;;;;;;;;v1.7;v1.7;v1.7;;v1.7a;v2.0;v2.0;v2.0;;v2.0
+Response;Doing the right thing.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Donald J. Trump.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Drinking alone.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Drinking out of the toilet and eating garbage.;;;;;;;;;;;;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;v2.0
+Response;Drowning the kids in the bathtub.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Dry heaving.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;"Dwayne ""The Rock"" Johnson.";;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Dying.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Eating a hard boiled egg out of my husband's asshole.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;v2.0;v2.0
+Response;Eating the last known bison.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Elderly Japanese men.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Emerging from the sea and rampaging through Tokyo.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Emma Watson.;;;;;;;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Emotions.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Erectile dysfunction.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Establishing dominance.;;;;;;;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Estrogen.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;;;;v2.0
+Response;Ethnic cleansing.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Exactly what you'd expect.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Executing a hostage every hour.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Expecting a burp and vomiting on the floor.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Explaining how vaginas work.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Explosions.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Extremely tight pants.;;;;;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;
+Response;Facebook.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Fading away into nothingness.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Fake tits.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Famine.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Fancy Feast®.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Farting and walking away.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Fear itself.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Fellowship in Christ.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Fiery poops.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;v2.0
+Response;Filling my briefcase with business stuff.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Finger painting.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Firing a rifle into the air while balls deep in a squealing hog.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Flesh-eating bacteria.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Flightless birds.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Flying sex snakes.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Forced sterilization.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;;
+Response;Foreskin.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Former President George W. Bush.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Fox News.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;
+Response;Fragile masculinity.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Free samples.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Friction.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Fucking my sister.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Fucking the weatherman on live television.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Full frontal nudity.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Funky fresh rhymes.;;;;;;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Gandhi.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Gay conversion therapy.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Geese.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Genuine human connection.;;;v1.1;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;German Chancellor Angela Merkel.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;German dungeon porn.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Getting crushed by a vending machine.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Getting cummed on.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Getting drugs off the street and into my body.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Getting fingered.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Getting married, having a few kids, buying some stuff, retiring to Florida, and dying.;;;;;v1.3;v1.4;v1.5;;v1.6;;;;v1.7;;;;;v2.0;v2.0;;;
+Response;Getting naked and watching Nickelodeon.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Getting really high.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Getting so angry that you pop a boner.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;;v1.7a;v2.0;v2.0;v2.0;;
+Response;Ghosts.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Girls.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Giving 110%.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Giving birth to the Antichrist.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Gloryholes.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Goblins.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;God.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;GoGurt®.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;;;v1.7;;;;;v2.0;v2.0;;;
+Response;Going an entire day without masturbating.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Grandma.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Half-assed foreplay.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Harry Potter erotica.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Having anuses for eyes.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Having big dreams but no realistic way to achieve them.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Having sex for the first time.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Heartwarming orphans.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Her Majesty, Queen Elizabeth II.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Heteronormativity.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Hillary Clinton's emails.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Response;Hobos.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Holding down a child and farting all over him.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Hope.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Horse meat.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Hospice care.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;;v1.7;v1.7;v1.7a;v2.0;;v2.0;v2.0;
+Response;Hot cheese.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Hot people.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;How amazing it is to be on mushrooms.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;v2.0
+Response;How bad my daughter fucked up her dance recital.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;How far I can get my own penis up my butt.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;However much weed $20 can buy.;;;;;;;;;;;;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;
+Response;Huffing spray paint.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;
+Response;Huge biceps.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Illegal immigrants.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;;
+Response;Inappropriate yodeling.;;;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Incest.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Inserting a Mason jar into my anus.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;;v1.7a;v2.0;v2.0;v2.0;;
+Response;Invading Poland.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Italians.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Itchy pussy.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;J.D. Power and his associates.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Response;Jennifer Lawrence.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Jerking off into a pool of children's tears.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;v2.0
+Response;Jews, gypsies, and homosexuals.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Jobs.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Judge Judy.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;
+Response;Judging everyone.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Justin Bieber.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Kamikaze pilots.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Kanye West.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;v2.0
+Response;Kissing grandma on the forehead and turning off her life support.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;v2.0
+Response;Kourtney, Kim, Khloe, Kendall, and Kylie.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Lactation.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Lance Armstrong's missing testicle.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Land mines.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Laying an egg.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Lena Dunham.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;
+Response;Leprosy.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Liberals.;;;;;;;;;;;;v1.6;;;;v1.7;;v2.0;;;v2.0;
+Response;Licking things to claim them as your own.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Listening to her problems without trying to solve them.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Little boy penises.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Lockjaw.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;"Looking in the mirror, applying lipstick, and whispering ""tonight, you will have sex with Tom Cruise.""";;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Lumberjack fantasies.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Lunchables™.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Magnets.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Making a pouty face.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Man meat.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Mansplaining.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;
+Response;Many bats.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Masturbating.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Me time.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;MechaHitler.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Memes.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Men discussing their feelings in an emotionally healthy way.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Men.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Menstrual rage.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Meth.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;;v2.0
+Response;Mike Pence.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Response;More elephant cock than I bargained for.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Morgan Freeman's voice.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Mouth herpes.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Muhammad (Peace Be Upon Him).;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Multiple stab wounds.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Murder.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Mutually assured destruction.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My abusive boyfriend who really isn't so bad once you get to know him.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My balls on your face.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My black ass.;;;;;;;;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;My bright pink fuckhole.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My cheating son-of-a-bitch husband.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;;v2.0
+Response;My collection of Japanese sex toys.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My ex-wife.;;;;;;;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My fat daughter.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My genitals.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My good bra.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My inner demons.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My neck, my back, my pussy, and my crack.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My relationship status.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My sex life.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My soul.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My Uber driver, Pavel.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;My ugly face and bad personality.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;My vagina.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Natural male enhancement.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Natural selection.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Nazis.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;NBA superstar LeBron James.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;v2.0;
+Response;Necrophilia.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Nickelback.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Nicolas Cage.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Nipple blades.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Not giving a shit about the Third World.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Not reciprocating oral sex.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Not vaccinating my children because I am stupid.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;v2.0;v2.0
+Response;Not wearing pants.;;;;;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;v2.0
+Response;Object permanence.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Old-people smell.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;One titty hanging out.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;One trillion dollars.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Only dating Asian women.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Oompa-Loompas.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Opposable thumbs.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Oprah.;;;;;;;;;;;;;;;;;;v2.0;;;;v2.0
+Response;Pac-Man uncontrollably guzzling cum.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Passive-aggressive Post-it notes.;;;;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Pedophiles.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Peeing a little bit.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Penis breath.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Penis envy.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Permanent Orgasm-Face Disorder.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Pictures of boobs.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Pixelated bukkake.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Police brutality.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Pooping back and forth. Forever.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Pooping in a laptop and closing it.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Poopy diapers.;;;;;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;v2.0
+Response;Poor life choices.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Poor people.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Poorly-timed Holocaust jokes.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Poverty.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Powerful thighs.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Prescription pain killers.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;
+Response;Preteens.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Pretending to care.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;PTSD.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Puberty.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Pulling out.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Punching a congressman in the face.;;;;;;;;;;;;;v1.7;;;;;v2.0;;;;
+Response;Puppies!;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Queefing.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;
+Response;Racially-biased SAT questions.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;;;v1.7;;;;;v2.0;;;;
+Response;Racism.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;;v1.7a;v2.0;v2.0;v2.0;;v2.0
+Response;Radical Islamic terrorism.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Rap music.;;;;;;;;;;;;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Raptor attacks.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Repression.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Republicans.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;RoboCop.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Ronald Reagan.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;;;v1.7;;;;;v2.0;;;;
+Response;Running out of semen.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Ruth Bader Ginsburg brutally gaveling your penis.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Response;"Saying ""I love you.""";;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Science.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Scientology.;;;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Seeing Grandma naked.;;;;;;;;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;v2.0
+Response;Seeing my father cry.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Seeing what happens when you lock people in a room with hungry seagulls.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Seething with quiet resentment.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Self-loathing.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Selling crack to children.;;;;;;;;;;;;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;v2.0;;v2.0
+Response;Seppuku.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Serfdom.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Seven dead and three in critical condition.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Sex with animals.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Sex with Patrick Stewart.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Sexual peeing.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Sexual tension.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Shaking a baby until it stops crying.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Shapeshifters.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Shiny objects.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Shutting up so I can watch the game.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;v2.0;
+Response;Sideboob.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Silence.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Sitting on my face and telling me I'm garbage.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;v2.0
+Response;Slaughtering innocent civilians.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Smallpox blankets.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Smegma.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Soft, kissy missionary sex.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Solving problems with violence.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Some god damn peace and quiet.;;;;;;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Some guy.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Some of the best rappers in the game.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;
+Response;Some punk kid who stole my turkey sandwich.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;
+Response;Soup that is too hot.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Spaghetti? Again?;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Spectacular abs.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Sperm whales.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Spontaneous human combustion.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Stalin.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Stephen Hawking talking dirty.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Steve Bannon.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Response;Still being a virgin.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Strong female characters.;;;;;;;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Sunshine and rainbows.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Sweet, sweet vengeance.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Switching to Geico®.;;;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Swooping.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Synergistic management solutions.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Tap dancing like there's no tomorrow.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Teaching a robot to love.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Tearing that ass up like wrapping paper on Christmas morning.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;v2.0;
+Response;Teenage pregnancy.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Telling a shitty story that goes nowhere.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Tentacle porn.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The American Dream.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;;;v1.7;;v1.7;;;v2.0;;v2.0;;v2.0
+Response;The Amish.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;The arrival of the pizza.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The Bachelorette season finale.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;v2.0;
+Response;The Big Bang.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The Blood of Christ.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The bombing of Nagasaki.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The Boy Scouts of America.;;;;;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;The clitoris.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The cool, refreshing taste of Pepsi®.;;;;;;;;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;v2.0;;v2.0
+Response;The Devil Himself.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The entire Mormon Tabernacle Choir.;;;;;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;The female orgasm.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;The Force.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The gays.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The glass ceiling.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;The Great Depression.;;;;;;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;The Hamburglar.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;The heart of a child.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The Holy Bible.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The homosexual agenda.;;v1.0;v1.1;v1.2;;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;The Hustle.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;;
+Response;The inevitable heat death of the universe.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The Jews.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The KKK.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;;v1.7a;v2.0;v2.0;v2.0;;
+Response;The Kool-Aid Man.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;The magic of live theatre.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;The milkman.;;;;;;;;;;;;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The miracle of childbirth.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The only gay person in a hundred miles.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;;
+Response;The past.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The Patriarchy.;;;;;;;;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;"The penny whistle solo from ""My Heart Will Go On.""";;;;;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;The placenta.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The Pope.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The Rapture.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;The Red Hot Chili Peppers.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Response;The rhythms of Africa.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;The Russians.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The screams...the terrible screams.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The South.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;The Three-Fifths compromise.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;;;v1.7;;;;;v2.0;;;;
+Response;The Trail of Tears.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;;;v1.7;;;;;v2.0;;;;
+Response;The true meaning of Christmas.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The Underground Railroad.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;The unstoppable tide of Islam.;;;;;;;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;;v1.7a;v2.0;v2.0;v2.0;;
+Response;The violation of our most basic human rights.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The wifi password.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;The wonders of the Orient.;;;;;;;;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;v2.0;
+Response;These hoes.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;;
+Response;This month's mass shooting.;;;;;;;;;;;;;;;;;;v2.0;v2.0;;v2.0;
+Response;Three dicks at the same time.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Throwing a virgin into a volcano.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Throwing grapes at a man until he loses touch with reality.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Touching a pug right on his penis.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Unfathomable stupidity.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Used panties.;;;;;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;v2.0
+Response;Vehicular manslaughter.;;;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;v1.7;v1.7a;v2.0;v2.0;;;
+Response;Viagra®.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Vigorous jazz hands.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Vladimir Putin.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Vomiting seafood and bleeding anally.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Waiting till marriage.;;;;;;;;;;;;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Waking up half-naked in a Denny's parking lot.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;
+Response;Wet dreams.;;;;;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Whipping it out.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;White people.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;White privilege.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;William Shatner.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Wizard music.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Women in yogurt commercials.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;;v1.6;;v1.6;;v1.7;v1.7;;;v1.7a;v2.0;v2.0;;;v2.0
+Response;Women of color.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Response;Women's suffrage.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Wondering if it's possible to get some of that salsa to go.;;;;;;;;;;;;;;;;;;v2.0;;;;
+Response;World peace.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0
+Response;Worshipping that pussy.;;;;;;;;;;;;;;;;;;v2.0;v2.0;v2.0;v2.0;
+Response;Yeast.;;v1.0;v1.1;v1.2;v1.3;v1.4;v1.5;v1.5;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;
+Response;Your weird brother.;;;;;;;;;v1.6;v1.6;v1.6;;v1.7;v1.7;v1.7;v1.7;v1.7a;v2.0;v2.0;v2.0;v2.0;v2.0

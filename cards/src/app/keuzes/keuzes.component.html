@@ -2,12 +2,17 @@
 <p class="text-white">Hoeveel rondes wil je spelen</p>
 <form [formGroup]="startForm" (ngSubmit)="saveSettings()">
   <input class="form-control form-control-lg" formControlName="rondes" type="number" style="width: 200px"><br>
-  <input class="form-check-input" type="checkbox" formControlName="EXP1" value="Expansion pack 6"><p class="text-white">Expansion pack 1 </p>
-  <input class="form-check-input" type="checkbox" formControlName="EXP2" value="Expansion pack 6"><p class="text-white">Expansion pack 2 </p>
-  <input class="form-check-input" type="checkbox" formControlName="EXP3" value="Expansion pack 6"><p class="text-white">Expansion pack 3 </p>
-  <input class="form-check-input" type="checkbox" formControlName="EXP4" value="Expansion pack 6"><p class="text-white">Expansion pack 4 </p>
-  <input class="form-check-input" type="checkbox" formControlName="EXP5" value="Expansion pack 6"><p class="text-white">Expansion pack 5 </p>
+
+
+
+  <input class="form-check-input" type="checkbox" formControlName="EXP1" value="Expansion pack 1"><p class="text-white">Expansion pack 1 </p>
+  <input class="form-check-input" type="checkbox" formControlName="EXP2" value="Expansion pack 2"><p class="text-white">Expansion pack 2 </p>
+  <input class="form-check-input" type="checkbox" formControlName="EXP3" value="Expansion pack 3"><p class="text-white">Expansion pack 3 </p>
+  <input class="form-check-input" type="checkbox" formControlName="EXP4" value="Expansion pack 4"><p class="text-white">Expansion pack 4 </p>
+  <input class="form-check-input" type="checkbox" formControlName="EXP5" value="Expansion pack 5"><p class="text-white">Expansion pack 5 </p>
   <input class="form-check-input" type="checkbox" formControlName="EXP6" value="Expansion pack 6"><p class="text-white">Expansion pack 6 </p>
+
+
   <button class="btn btn-outline-light btn-lg" type="submit">Begin</button>
 </form>
 <p class="text-white">Er zijn {{this.parent.spelers}} spelers.</p>

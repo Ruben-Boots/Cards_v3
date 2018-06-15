@@ -1,0 +1,6 @@
+
+
+<form [formGroup]="todoForm" (ngSubmit)="saveTodo($event)">
+  <input formControlName="task" type="text" placeholder="task">
+  <button type="submit">Save</button>
+</form>

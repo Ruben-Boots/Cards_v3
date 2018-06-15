@@ -24,7 +24,6 @@ export class PlayedcardsComponent implements OnInit {
       this.cardService.getUserNaam(i).subscribe(naam => this.spelers.push(naam));
       this.cards[i - 1] = this.playedCards.splice(0, 3).splice(0, this.parent.blackCard.numPicks);
     }
-    console.log(this.cards);
   }
 
   bevestig() {

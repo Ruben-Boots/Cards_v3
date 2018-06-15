@@ -44,7 +44,7 @@ export class AppComponent implements OnInit {
     this.cardService.getStuff().subscribe(user => {
       this.bevestig = user[0];
       this.spelers = user[1];
-      this.czarview = user[4];
+      this.czarview = user[4] === 1;
 
       if (this.ronde < user[2] && this.ronde !== 0) {
         if (!this.wacht) {
@@ -58,12 +58,10 @@ export class AppComponent implements OnInit {
       if (this.ronde !== 0 && user[2] === 0) {
         this.geklikt = false;
         this.wacht = false;
-        console.log('wacht->false');
       }
 
 
       if (this.ronde === 0 && user[2] === 1 && !this.geklikt) {
-        console.log('wacht -> true');
         this.wacht = true;
       }
 

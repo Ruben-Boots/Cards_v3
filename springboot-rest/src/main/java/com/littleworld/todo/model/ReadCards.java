@@ -15,6 +15,7 @@ public class ReadCards {
     public ArrayList<Long> trackblack;
     public ArrayList<Long> trackwhite;
 
+
     public String[] cardsets;
 
     public ReadCards() {
@@ -32,6 +33,11 @@ public class ReadCards {
             }
         }
         this.cardsets = tmpnames.toArray(new String[tmpnames.size()]);
+    }
+
+    public String[] getCardsets()
+    {
+        return this.cardsets;
     }
 
 
@@ -134,4 +140,7 @@ public class ReadCards {
 
         return res;
     }
+
+
+
 }

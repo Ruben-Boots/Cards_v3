@@ -13,4 +13,6 @@ public interface WhiteCardService extends CrudRepository<WhiteCard, Long> {
 
     @Query("select id from WhiteCard where cardset = :cardsetsearch")
     ArrayList<Long> findWhiteByCardset(@Param("cardsetsearch") String cardsetsearch);
+
+
 }

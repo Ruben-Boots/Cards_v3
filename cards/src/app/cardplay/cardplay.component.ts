@@ -27,7 +27,7 @@ import {AppComponent} from '../app.component';
       state('in', style({transform: 'translateX(0)'})),
       transition('void => *', [
         style({transform: 'translateY(100%) scaleX(0.2)'}),
-        animate(1000),
+        animate(250),
       ]),
       transition('* => void', [
         animate(50, style({transform: 'translateY(100%)'}))

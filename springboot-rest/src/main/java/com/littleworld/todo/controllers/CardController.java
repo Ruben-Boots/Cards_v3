@@ -20,7 +20,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "http://10.2.22.105:4200")
+@CrossOrigin(origins = "http://10.2.12.129:4200")
 @Controller
 public class CardController {
     int maxRondes = 0;
@@ -49,6 +49,13 @@ public class CardController {
     public String[] getPlayed() {
         return playedCards;
     }
+
+    @ResponseBody
+    @RequestMapping(value = "/availablesets", method = RequestMethod.GET)
+    public String[] getAvailableSets(){
+        return this.reader.getCardsets();
+    }
+
 
     @ResponseBody
     @RequestMapping(value = "/playedCards/clear", method = RequestMethod.GET)
@@ -151,7 +158,7 @@ public class CardController {
                 return "\""+user.getNaam()+"\"";
             }
         }
-        return "Sjaakdedraak";
+        return "\"Sjaakdedraak\"";
     }
 
     @ResponseBody

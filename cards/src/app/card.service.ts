@@ -5,12 +5,11 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 import {Kaart} from './Kaart';
-import {TSMap} from 'typescript-map';
 
 @Injectable()
 export class CardService {
 
-  origin = '10.2.22.105:8080';
+  origin = '10.2.12.129:8080';
 
   constructor(private http: HttpClient) { }
 
@@ -34,6 +33,11 @@ export class CardService {
     this.http.post('http://'  + this.origin + '/sets', sets).subscribe();
   }
 
+  // getAvailableSets(): Observable<String[]>{
+  //   return this.http.get('http://' + this.origin + 'availablesets')
+  //     .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
+  // }
+
   findAll(aantal: number): Observable<Kaart[]>  {
     return this.http.get('http://'  + this.origin + '/card/draw/' + aantal)
       .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
@@ -54,7 +58,7 @@ export class CardService {
       .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
   }
 
-  getUserNaam(id: number): Observable<string> {
+  getUserNaam(id: number): Observable<any> {
      return this.http.get('http://' + this.origin + '/user/naam/' + id);
   }
 
