@@ -8,7 +8,7 @@ This consists of an Angular app (front-end) and a spring Rest app (backend). Bot
 
 ### Installing
 
-Make sure you have node.js and maven installed.
+Make sure you have node.js and maven installed. And have a MySQL database named cards
 
 
 In the cards project in card.service.ts change variable origin to
@@ -25,6 +25,12 @@ and in the springboot-rest project in CardController.java change origins in @Cro
 
 For single machine testing yourip can be localhost. For LAN multiplayer use your actual ip-adress
 
+In the springboot-rest project in application.properties change
+```
+spring.datasource.username=YOURUSERNAME
+spring.datasource.password=YOURPASSWORD
+```
+to your MySQL username and password.
 
 ## Deployment
 
@@ -42,12 +48,7 @@ or
 ```
 ng serve --host yourip
 ```
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+for local testing and LAN multiplayer functionality respectively.
 
 ## Authors
 
